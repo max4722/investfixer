@@ -9,3 +9,7 @@ var element = document.getElementById('abPopup');
 if (element !== null) {
     element.parentNode.removeChild(element);
 }
+element = document.getElementById('ab-intro');
+if (element !== null) {
+    element.parentNode.removeChild(element);
+}
